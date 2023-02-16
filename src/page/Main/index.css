@@ -1,0 +1,21 @@
+.content {
+  /* height: 100vh; */
+  padding: 30px 150px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.main {
+  width: 70%;
+  height: 100%;
+  float: left;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: left; */
+}
+
+.right_content {
+  float: right;
+  width: 30%;
+}

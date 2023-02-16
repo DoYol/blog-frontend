@@ -1,0 +1,63 @@
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article_header {
+  height: 30px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.article_header_title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.commonText {
+  color: #a6a6a6;
+  font-size: 13px;
+}
+
+.article_header_data span {
+  margin-left: 11px;
+}
+
+.article_header_data svg {
+  margin-right: 7px;
+}
+
+.article_content {
+  height: 110px;
+}
+
+.article_content_abstrict {
+  width: auto;
+}
+
+.article_content_img {
+  width: 110px;
+  height: 100%;
+}
+
+.article_content_img img {
+  width: 110px;
+  height: 110px;
+}
+
+.article_footer_author {
+  margin-right: 10px;
+}
+
+.article_footer_time svg {
+  margin-right: 7px;
+}
+
+/* 分页器的样式 */
+.ant-pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}

@@ -1,0 +1,31 @@
+.category_main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category_title .ant-btn-link {
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.category_content {
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.category_logo {
+  position: absolute;
+  top: -45px;
+  left: auto;
+  width: 60px;
+  height: 60px;
+}
+
+.category_logo img {
+  width: 60px;
+  height: 60px;
+}
